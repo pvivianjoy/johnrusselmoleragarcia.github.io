@@ -14,9 +14,18 @@ html, body {
 	background: url('../img/text_cover.png');
 	background-size: cover;
 	height: 40%;
-	background-position: center center;
+	background-position: center top;
 	box-shadow: 0 0 2em rgba(0,0,0,0.8);
 	margin-bottom: 3em;
+}
+
+.text_cover {
+	background-color: rgba(50,50,50,0.4);
+	display: table-cell;
+	box-sizing: inherit;
+	vertical-align: middle;
+	color: white;
+	line-height: 1em;
 }
 
 .title {
