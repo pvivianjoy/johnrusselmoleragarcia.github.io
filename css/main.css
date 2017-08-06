@@ -156,13 +156,13 @@ img#logo {
 }
 
 .post img {
-	-webkit-filter: none;
+	-webkit-filter: grayscale(100%);
 	width: 100%;
 	transition: 0.3s all ease;
 }
 
 .post img:hover {
-	-webkit-filter: grayscale(100%);
+	-webkit-filter: none;
 	transition: 0.3s all ease;
 }
 
