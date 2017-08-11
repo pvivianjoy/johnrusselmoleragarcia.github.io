@@ -114,11 +114,18 @@ hr {
 
 /* Logo */
 
-img#logo {
+#logo img {
 	position: fixed;
 	bottom: 1.5em;
 	right: 1em;
 	width: 75px;
+	opacity: 0.5;
+}
+
+#logo img:hover {
+	opacity: 1;
+	transition: 0.3s all ease;
+	transform: scale(1.2, 1.2);
 }
 
 /* Body */
